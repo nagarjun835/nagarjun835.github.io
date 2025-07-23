@@ -2,379 +2,48 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Performance Engineer Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nagarjuna S – Performance Engineer</title>
-
-  <!-- favicon -->
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
-
-  <!-- custom CSS -->
-  <link rel="stylesheet" href="./assets/css/style.css">
-
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 750px; margin: auto; padding: 2rem; }
+    h1 { color: #207ebf; }
+    section { margin-bottom: 2rem; }
+    .skills, .tools { margin: 0.5rem 0; }
+  </style>
 </head>
 <body>
-
-  <main>
-
-    <!-- ▸ SIDEBAR ------------------------------------------------------------------->
-    <aside class="sidebar" data-sidebar>
-
-      <div class="sidebar-info">
-
-        <figure class="avatar-box">
-          <!-- Replace with your own 1:1 photo -->
-          <img src="./assets/images/my-avatar.png" alt="Nagarjuna S avatar" width="80">
-        </figure>
-
-        <div class="info-content">
-          <h1 class="name" title="Nagarjuna S">Nagarjuna S</h1>
-          <p class="title">Performance Engineer</p>
-        </div>
-
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
-
-      </div>
-
-      <div class="sidebar-info_more">
-
-        <div class="separator"></div>
-
-        <ul class="contacts-list">
-
-          <li class="contact-item">
-            <div class="icon-box"><ion-icon name="mail-outline"></ion-icon></div>
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-              <a href="mailto:your.email@example.com" class="contact-link">your.email@example.com</a>
-            </div>
-          </li>
-
-          <li class="contact-item">
-            <div class="icon-box"><ion-icon name="phone-portrait-outline"></ion-icon></div>
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
-              <a href="tel:+91XXXXXXXXXX" class="contact-link">+91 XXXXXXXXXX</a>
-            </div>
-          </li>
-
-          <li class="contact-item">
-            <div class="icon-box"><ion-icon name="calendar-outline"></ion-icon></div>
-            <div class="contact-info">
-              <p class="contact-title">Experience</p>
-              <time datetime="2018">2018 – Present</time>
-            </div>
-          </li>
-
-          <li class="contact-item">
-            <div class="icon-box"><ion-icon name="location-outline"></ion-icon></div>
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-              <address>Bangalore, India</address>
-            </div>
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-          <li class="social-item">
-            <a href="https://www.linkedin.com/in/nagarjuna835" target="_blank" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-          <li class="social-item">
-            <a href="https://github.com/nagarjun835" target="_blank" class="social-link">
-              <ion-icon name="logo-github"></ion-icon>
-            </a>
-          </li>
-        </ul>
-
-      </div>
-
-    </aside>
-
-
-
-    <!-- ▸ MAIN CONTENT -------------------------------------------------------------->
-    <div class="main-content">
-
-      <!-- NAVBAR -->
-      <nav class="navbar">
-        <ul class="navbar-list">
-          <li class="navbar-item"><button class="navbar-link active" data-nav-link>About</button></li>
-          <li class="navbar-item"><button class="navbar-link" data-nav-link>Resume</button></li>
-          <li class="navbar-item"><button class="navbar-link" data-nav-link>Portfolio</button></li>
-          <li class="navbar-item"><button class="navbar-link" data-nav-link>Contact</button></li>
-        </ul>
-      </nav>
-
-
-
-      <!-- ABOUT ---------------------------------------------------------------------->
-      <article class="about active" data-page="about">
-
-        <header><h2 class="h2 article-title">About Me</h2></header>
-
-        <section class="about-text">
-          <p>
-            I’m a Performance Engineer with 5+ years of experience optimizing web and client/server applications in the <b>Banking</b> and <b>Healthcare</b> domains. At <b>Athenahealth</b> I drive product scalability through advanced scripting, test-planning, and bottleneck analysis.
-          </p>
-          <p>
-            Skilled in <b>JMeter</b>, <b>LoadRunner</b>, <b>Zabbix</b>, <b>New Relic</b>, <b>AWS</b>, and <b>Kubernetes</b>. I automate repetitive tasks using <b>Python</b>, <b>PowerShell</b>, and <b>Bash</b>; build web automations with <b>Puppeteer</b>; and craft desktop workflows with <b>Pywinauto</b>. Passionate about continuous performance improvement and clean, scalable systems.
-          </p>
-        </section>
-
-        <!-- Services -->
-        <section class="service">
-          <h3 class="h3 service-title">What I Do</h3>
-          <ul class="service-list">
-
-            <li class="service-item">
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Performance Engineering" width="40">
-              </div>
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Performance Engineering</h4>
-                <p class="service-item-text">Load testing, profiling, and tuning critical web and desktop apps.</p>
-              </div>
-            </li>
-
-            <li class="service-item">
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="Automation Scripting" width="40">
-              </div>
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Automation Scripting</h4>
-                <p class="service-item-text">Python, PowerShell & Bash scripts to eliminate manual effort.</p>
-              </div>
-            </li>
-
-            <li class="service-item">
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg" alt="Observability" width="40">
-              </div>
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Observability</h4>
-                <p class="service-item-text">End-to-end monitoring & alerting with Zabbix and New Relic.</p>
-              </div>
-            </li>
-
-            <li class="service-item">
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Cloud & Containers" width="40">
-              </div>
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Cloud & Containers</h4>
-                <p class="service-item-text">Deploying scalable systems on AWS & Kubernetes.</p>
-              </div>
-            </li>
-
-          </ul>
-        </section>
-
-      </article>
-
-
-
-      <!-- RESUME --------------------------------------------------------------------->
-      <article class="resume" data-page="resume">
-
-        <header><h2 class="h2 article-title">Resume</h2></header>
-
-        <!-- Education -->
-        <section class="timeline">
-          <div class="title-wrapper">
-            <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
-            <h3 class="h3">Education</h3>
-          </div>
-
-          <ol class="timeline-list">
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">B.Tech – Computer Science</h4>
-              <span>2014 – 2018</span>
-              <p class="timeline-text">XYZ University, India</p>
-            </li>
-          </ol>
-        </section>
-
-        <!-- Experience -->
-        <section class="timeline">
-          <div class="title-wrapper">
-            <div class="icon-box"><ion-icon name="briefcase-outline"></ion-icon></div>
-            <h3 class="h3">Experience</h3>
-          </div>
-
-          <ol class="timeline-list">
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">Performance Engineer – Athenahealth</h4>
-              <span>2020 – Present</span>
-              <p class="timeline-text">
-                Lead performance testing, developed custom load scripts, and resolved system bottlenecks in large-scale healthcare apps using JMeter, LoadRunner, and Kubernetes.
-              </p>
-            </li>
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">Performance Engineer – ABC Banking</h4>
-              <span>2018 – 2020</span>
-              <p class="timeline-text">
-                Optimized high-volume banking platforms; automated regression suites with Python & PowerShell; improved response times by 30%.
-              </p>
-            </li>
-          </ol>
-        </section>
-
-        <!-- Skills -->
-        <section class="skill">
-          <h3 class="h3 skills-title">My Skills</h3>
-          <ul class="skills-list content-card">
-
-            <li class="skills-item">
-              <div class="title-wrapper"><h5 class="h5">JMeter / LoadRunner</h5><data value="90">90%</data></div>
-              <div class="skill-progress-bg"><div class="skill-progress-fill" style="width:90%;"></div></div>
-            </li>
-
-            <li class="skills-item">
-              <div class="title-wrapper"><h5 class="h5">Python / PowerShell / Bash</h5><data value="85">85%</data></div>
-              <div class="skill-progress-bg"><div class="skill-progress-fill" style="width:85%;"></div></div>
-            </li>
-
-            <li class="skills-item">
-              <div class="title-wrapper"><h5 class="h5">AWS & Kubernetes</h5><data value="70">70%</data></div>
-              <div class="skill-progress-bg"><div class="skill-progress-fill" style="width:70%;"></div></div>
-            </li>
-
-            <li class="skills-item">
-              <div class="title-wrapper"><h5 class="h5">Monitoring (Zabbix / New Relic)</h5><data value="80">80%</data></div>
-              <div class="skill-progress-bg"><div class="skill-progress-fill" style="width:80%;"></div></div>
-            </li>
-
-            <li class="skills-item">
-              <div class="title-wrapper"><h5 class="h5">Automation (Puppeteer / Pywinauto)</h5><data value="75">75%</data></div>
-              <div class="skill-progress-bg"><div class="skill-progress-fill" style="width:75%;"></div></div>
-            </li>
-
-          </ul>
-        </section>
-
-      </article>
-
-
-
-      <!-- PORTFOLIO ------------------------------------------------------------------>
-      <article class="portfolio" data-page="portfolio">
-
-        <header><h2 class="h2 article-title">Projects</h2></header>
-
-        <section class="projects">
-
-          <!-- Filters -->
-          <ul class="filter-list">
-            <li class="filter-item"><button class="active" data-filter-btn>All</button></li>
-            <li class="filter-item"><button data-filter-btn>Automation</button></li>
-            <li class="filter-item"><button data-filter-btn>Performance</button></li>
-          </ul>
-
-          <!-- Projects -->
-          <ul class="project-list">
-
-            <!-- Automation -->
-            <li class="project-item active" data-filter-item data-category="automation">
-              <a href="https://github.com/nagarjun835/log-automation" target="_blank">
-                <figure class="project-img">
-                  <img src="./assets/images/project-log.png" alt="Log Automation" loading="lazy">
-                </figure>
-                <h3 class="project-title">Automated Log Collection</h3>
-                <p class="project-category">Automation</p>
-              </a>
-            </li>
-
-            <!-- Performance -->
-            <li class="project-item active" data-filter-item data-category="performance">
-              <a href="https://github.com/nagarjun835/perf-testing-scripts" target="_blank">
-                <figure class="project-img">
-                  <img src="./assets/images/project-perf.png" alt="Performance Scripts" loading="lazy">
-                </figure>
-                <h3 class="project-title">Custom Performance Scripts</h3>
-                <p class="project-category">Performance</p>
-              </a>
-            </li>
-
-            <!-- Web Automation -->
-            <li class="project-item active" data-filter-item data-category="automation">
-              <a href="https://github.com/nagarjun835/puppeteer-automation" target="_blank">
-                <figure class="project-img">
-                  <img src="./assets/images/project-web.png" alt="Web Automation" loading="lazy">
-                </figure>
-                <h3 class="project-title">Web App Automation</h3>
-                <p class="project-category">Automation</p>
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-      <!-- CONTACT -------------------------------------------------------------------->
-      <article class="contact" data-page="contact">
-
-        <header><h2 class="h2 article-title">Contact</h2></header>
-
-        <!-- Google Maps (optional) -->
-        <!--
-        <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe ... ></iframe>
-          </figure>
-        </section>
-        -->
-
-        <section class="contact-form">
-          <h3 class="h3 form-title">Get in Touch</h3>
-
-          <form action="https://formspree.io/f/your-form-id" method="POST" class="form" data-form>
-
-            <div class="input-wrapper">
-              <input type="text" name="name" class="form-input" placeholder="Full name" required>
-              <input type="email" name="email" class="form-input" placeholder="Email address" required>
-            </div>
-
-            <textarea name="message" class="form-input" placeholder="Your Message" required></textarea>
-
-            <button class="form-btn" type="submit">
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
-
-          </form>
-
-        </section>
-
-      </article>
-
-    </div> <!-- /main-content -->
-
-  </main>
-
-
-
-  <!-- custom JS -->
-  <script src="./assets/js/script.js"></script>
-
-  <!-- Ionicons -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+  <h1>NAGARJUNA S — Performance Engineer</h1>
+ <section>
+  <h2>About Me</h2>
+  <p>
+    Performance Engineer with 5+ years of experience in testing and engineering, focusing on optimizing web and client/server applications. Experienced across <b>Banking</b> and <b>Healthcare</b> domains, currently working at Athenahealth to drive performance improvements through test planning, advanced scripting, and bottleneck analysis. Passionate about building high-performing, scalable systems and automating manual processes.
+  </p>
+</section>
+  <section>
+  <h2>Technical Skills & Tools</h2>
+  <ul>
+    <li>Performance Testing Tools: JMeter, LoadRunner</li>
+    <li>Monitoring & Observability: Zabbix, New Relic</li>
+    <li>Infrastructure: AWS, Kubernetes, Linux</li>
+    <li>Automation: Powershell, Bash scripting, Python</li>
+    <li>Web Application Automation: Puppeteer (JS/Node.js)</li>
+    <li>Desktop Automation: Pywinauto (Python)</li>
+  </ul>
+</section>
+  <section>
+  <h2>Projects</h2>
+  <ul>
+    <li>Automated log collection and analysis from multiple remote desktops — <b>Python, PowerShell</b></li>
+    <li>Web application automation for internal tools — <b>Puppeteer, Node.js</b></li>
+    <li>Desktop task automation to reduce manual effort — <b>Pywinauto, Python</b></li>
+    <li>Performance test planning and custom test script development — <b>JMeter, LoadRunner, Bash</b></li>
+    <li>Infrastructure monitoring setup and alerting — <b>Zabbix, New Relic</b></li>
+  </ul>
+</section>
+<section>
+  <h2>Contact</h2>
+  <p>Email: nagarjun835@gmail.com.com</p>
+  <p>LinkedIn: <a href="https://www.linkedin.com/in/nagarjuna835" target="_blank">www.linkedin.com/in/nagarjuna835</a></p>
+</section>
 </body>
 </html>
